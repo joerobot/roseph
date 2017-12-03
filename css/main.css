@@ -209,6 +209,25 @@ textarea {
        margin: 24px auto;
    }
 
+   .jr__card .gift {
+       text-align: center;
+   }
+
+   .jr__card .gift .icon {
+       margin-bottom: 0;
+   }
+
+   .jr__card .gift h4 {
+       display: inline-block;
+       background-color: white;
+       transition: background-color 0.3s ease-in-out;
+       margin: 0;
+   }
+
+   .jr__card .gift a:hover h4 {
+       background-color: #ffe97c;
+   }
+
    .jr__thanks .icon {
        height: 80px;
        max-width: none;
