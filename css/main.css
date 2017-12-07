@@ -97,16 +97,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   @font-face {
-       font-family: 'Edmondsans';
-       src: '../fonts/Edmondsans-Regular.WOFF', format('woff');
-   }
 
-   @font-face {
-       font-family: 'Edmondsans';
-       src: '../fonts/Edmondsans-Bold.WOFF', format('woff');
-       font-weight: bold;
-   }
+    @font-face {
+        font-family: 'Edmondsans';
+        src: url('../fonts/edmondsans-bold-webfont.woff2') format('woff2'),
+            url('../fonts/edmondsans-bold-webfont.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'Edmondsans';
+        src: url('../fonts/edmondsans-regular-webfont.woff2') format('woff2'),
+            url('../fonts/edmondsans-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
 
    * {
        box-sizing: border-box;
